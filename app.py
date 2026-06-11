@@ -31,6 +31,17 @@ load_dotenv()
 
 import os  # noqa: E402
 
+
+def default_api_key() -> str:
+    """Resolve the OpenAI key from Streamlit secrets (cloud) or the env (.env, local)."""
+    try:
+        if "OPENAI_API_KEY" in st.secrets:
+            return st.secrets["OPENAI_API_KEY"]
+    except Exception:  # noqa: BLE001 — no secrets.toml present (e.g. local run)
+        pass
+    return os.getenv("OPENAI_API_KEY", "")
+
+
 # --- UI labels ---------------------------------------------------------------
 
 FEATURE_LABELS = {
@@ -205,7 +216,7 @@ def main():
 
         api_key = st.text_input(
             "OpenAI API Key",
-            value=os.getenv("OPENAI_API_KEY", ""),
+            value=default_api_key(),
             type="password",
         )
 
