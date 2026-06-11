@@ -1,0 +1,108 @@
+{
+  "athlete_profile": "Age: 32, Sex: Male, Height: 178 cm, Weight: 82 kg, Running experience: 4 months. Beginner runner who started running in late 2025. No prior endurance sport background. Runs 2-3 times per week, mostly on flat urban routes. No known injuries but occasionally feels tightness in calves after runs. VO2max estimated at 38.5 mL/kg/min. Resting heart rate: 68 bpm. Average HRV: 42 ms.",
+
+  "goal": "Complete a first 10K race.",
+
+  "user_message": "I've been running for about 4 months now but I feel like I'm not improving much. My legs are often sore the day after running and my pace doesn't seem to get any faster. Should I run more often or change something in my training?",
+
+  "following_program": false,
+
+  "healthkit_data": {
+    "user_profile": {
+      "age": 32,
+      "sex": "male",
+      "height_cm": 178,
+      "weight_kg": 82,
+      "running_experience_months": 4
+    },
+    "vo2max": {
+      "value": 38.5,
+      "unit": "mL/kg/min",
+      "date": "2026-02-25"
+    },
+    "resting_heart_rate": {
+      "average_bpm": 68,
+      "date_range": "2026-02-01 to 2026-02-28"
+    },
+    "hrv": {
+      "average_ms": 42,
+      "date_range": "2026-02-01 to 2026-02-28"
+    },
+    "sleep": {
+      "average_duration_hours": 6.8,
+      "average_deep_sleep_hours": 1.2,
+      "average_rem_hours": 1.5,
+      "date_range": "2026-02-01 to 2026-02-28"
+    },
+    "recent_workouts": [
+      {
+        "date": "2026-02-27",
+        "type": "running",
+        "distance_km": 5.1,
+        "duration_minutes": 33.2,
+        "average_pace_min_per_km": 6.51,
+        "average_heart_rate_bpm": 162,
+        "max_heart_rate_bpm": 178,
+        "average_cadence_spm": 158,
+        "elevation_gain_m": 45
+      },
+      {
+        "date": "2026-02-25",
+        "type": "running",
+        "distance_km": 3.2,
+        "duration_minutes": 20.1,
+        "average_pace_min_per_km": 6.28,
+        "average_heart_rate_bpm": 155,
+        "max_heart_rate_bpm": 170,
+        "average_cadence_spm": 160,
+        "elevation_gain_m": 20
+      },
+      {
+        "date": "2026-02-22",
+        "type": "running",
+        "distance_km": 6.0,
+        "duration_minutes": 41.0,
+        "average_pace_min_per_km": 6.83,
+        "average_heart_rate_bpm": 168,
+        "max_heart_rate_bpm": 185,
+        "average_cadence_spm": 155,
+        "elevation_gain_m": 60
+      },
+      {
+        "date": "2026-02-20",
+        "type": "running",
+        "distance_km": 4.0,
+        "duration_minutes": 25.6,
+        "average_pace_min_per_km": 6.40,
+        "average_heart_rate_bpm": 158,
+        "max_heart_rate_bpm": 172,
+        "average_cadence_spm": 157,
+        "elevation_gain_m": 30
+      },
+      {
+        "date": "2026-02-17",
+        "type": "running",
+        "distance_km": 3.0,
+        "duration_minutes": 19.5,
+        "average_pace_min_per_km": 6.50,
+        "average_heart_rate_bpm": 160,
+        "max_heart_rate_bpm": 175,
+        "average_cadence_spm": 156,
+        "elevation_gain_m": 15
+      }
+    ],
+    "weekly_summary": {
+      "week_of": "2026-02-23",
+      "total_distance_km": 8.3,
+      "total_runs": 2,
+      "average_pace_min_per_km": 6.42,
+      "total_duration_minutes": 53.3
+    }
+  },
+
+  "training_data": "Last 4 weeks summary:\n- Week of Feb 23: 2 runs, 8.3 km total, avg pace 6:42/km, avg HR 159 bpm\n- Week of Feb 16: 3 runs, 13.0 km total, avg pace 6:44/km, avg HR 162 bpm\n- Week of Feb 9: 2 runs, 7.5 km total, avg pace 6:55/km, avg HR 165 bpm\n- Week of Feb 2: 2 runs, 6.8 km total, avg pace 7:02/km, avg HR 164 bpm\n\nTrends: Average heart rate is consistently above 155 bpm, suggesting most runs are at moderate-to-hard intensity. Pace is relatively flat around 6:30-7:00/km. Weekly volume is low and inconsistent (2-3 runs, 7-13 km/week). Longest single run: 6.0 km (41 min).",
+
+  "additional_context": "Runner tends to run all sessions at the same moderate-hard effort. Heart rate data suggests no easy runs are truly easy (all above 155 bpm for a max HR estimated around 188 bpm). Sleep is slightly below recommended (6.8h average). Low HRV (42 ms) may indicate accumulated fatigue or insufficient recovery. Cadence is low (155-160 spm), suggesting potential overstriding.",
+
+  "plan_context": "Goal type: race. Race distance: 10K. Race date: 2026-06-14. Available training weeks: approximately 15 weeks from today. The athlete is a beginner with 4 months of experience. Plan should start conservatively with run/walk progression and build toward continuous running, then 10K-specific preparation. 3 sessions per week recommended."
+}

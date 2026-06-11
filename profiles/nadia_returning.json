@@ -1,0 +1,27 @@
+{
+  "label": "Nadia — Returning after a 1-year break",
+  "language": "en",
+  "suggested_audience": "woman",
+  "physical": { "age": 29, "sex": "Female", "weight_kg": 63, "height_cm": 170 },
+  "level": "Returning",
+  "terrain": "Road",
+  "experience": "Ran for 2 years, then 1 year off",
+  "goal": "Rebuild general fitness and run 30 minutes non-stop",
+  "sessions_per_week": 3,
+  "preferred_days": [],
+  "following_program": true,
+  "program": "Plan: \"Back to Running\" (started 2026-05-25)\nCurrent week: 3 / 6\nKey principles: Run/walk rebuild, easy effort, rebuild aerobic base, injury-free return\n\nOverall progress: 6/9 sessions completed (67%)\nMissed sessions: 2\n\nWEEK 2 (past):\n- 2026-06-01: Run/walk 25min [COMPLETED: 3.0 km, pace 7:30/km, HR 166 bpm]\n- 2026-06-03: Run/walk 28min [MISSED]\n- 2026-06-05: Easy run 22min [COMPLETED: 2.8 km, pace 7:45/km]\n\nWEEK 3 (current):\n- 2026-06-08: Run/walk 30min [COMPLETED: 3.6 km, pace 7:20/km]\n- 2026-06-10: Easy run 25min [MISSED]\n- 2026-06-12: Run/walk 32min [TODAY - UPCOMING]\n\nWEEK 4 (next):\n- 2026-06-15: Continuous run 20min [UPCOMING]\n\nConsistency streak: 0 consecutive week(s) fully completed",
+  "athlete_profile": "Age: 29, Sex: Female, Height: 170 cm, Weight: 63 kg. Ran consistently for 2 years (best 5K 26:00), then stopped for ~12 months. Coming back over the last 3 weeks with short run/walk sessions. VO2max ~44 mL/kg/min (likely detrained), resting HR 60 bpm, HRV 50 ms. No injuries but cardio feels much harder than before.",
+  "default_user_message": "I used to run a 26-minute 5K but after a year off everything feels so hard and I get out of breath quickly. How do I come back without hurting myself or getting discouraged?",
+  "healthkit": {
+    "vo2max": { "value": 44.0, "unit": "mL/kg/min", "date": "2026-02-20" },
+    "resting_heart_rate": { "average_bpm": 60 },
+    "hrv": { "average_ms": 50 },
+    "sleep": { "average_duration_hours": 7.0, "average_deep_sleep_hours": 1.4 },
+    "recent_workouts": [
+      { "date": "2026-02-27", "distance_km": 3.5, "duration_minutes": 26.0, "average_pace_min_per_km": 7.43, "average_heart_rate_bpm": 165, "elevation_gain_m": 25 },
+      { "date": "2026-02-24", "distance_km": 3.0, "duration_minutes": 23.0, "average_pace_min_per_km": 7.66, "average_heart_rate_bpm": 168, "elevation_gain_m": 20 },
+      { "date": "2026-02-21", "distance_km": 2.5, "duration_minutes": 20.0, "average_pace_min_per_km": 8.00, "average_heart_rate_bpm": 170, "elevation_gain_m": 10 }
+    ]
+  }
+}

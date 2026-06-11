@@ -1,0 +1,29 @@
+{
+  "label": "Sophie — Experienced, sub-1:50 half (active program)",
+  "language": "fr",
+  "suggested_audience": "woman",
+  "physical": { "age": 41, "sex": "Female", "weight_kg": 58, "height_cm": 165 },
+  "level": "Advanced",
+  "terrain": "Road",
+  "experience": "5 years",
+  "goal": "Run a half-marathon under 1h50",
+  "sessions_per_week": 4,
+  "preferred_days": ["Tuesday", "Thursday", "Saturday", "Sunday"],
+  "following_program": true,
+  "program": "Plan: \"Semi sous 1h50\" (started 2026-04-01)\nCurrent week: 5 / 10\nKey principles: Polarized training, weekly long run, one quality session\n\nOverall progress: 17/20 sessions completed (85%)\nMissed sessions: 1\n\nWEEK 4 (past):\n- 2026-04-21: Tempo 45min [COMPLETED: 9.5 km, pace 4:42/km, HR 158 bpm]\n- 2026-04-25: Sortie longue 90min [COMPLETED: 18.0 km, pace 5:00/km]\n\nWEEK 5 (current):\n- 2026-04-28: Footing 40min [COMPLETED: 8.0 km, pace 5:30/km]\n- 2026-04-30: Intervalles 6x1000m [TODAY - UPCOMING]\n- 2026-05-03: Sortie longue 100min [UPCOMING]\n\nWEEK 6 (next):\n- 2026-05-06: Tempo 50min [UPCOMING]\n\nConsistency streak: 4 consecutive week(s) fully completed",
+  "athlete_profile": "Age: 41, Sex: Female, Height: 165 cm, Weight: 58 kg. Running experience: 5 years. Consistent runner, ~35 km/week. Two previous half-marathons (best 1:54). VO2max ~52 mL/kg/min, resting HR 48 bpm, HRV 65 ms. No current injuries. Sleeps well (7.8h avg).",
+  "default_user_message": "My last few interval sessions felt harder than usual and my legs are heavy. Should I push through this week's quality session or back off?",
+  "healthkit": {
+    "vo2max": { "value": 52.0, "unit": "mL/kg/min", "date": "2026-02-26" },
+    "resting_heart_rate": { "average_bpm": 48 },
+    "hrv": { "average_ms": 65 },
+    "sleep": { "average_duration_hours": 7.8, "average_deep_sleep_hours": 1.8 },
+    "recent_workouts": [
+      { "date": "2026-02-28", "distance_km": 16.0, "duration_minutes": 76.8, "average_pace_min_per_km": 4.80, "average_heart_rate_bpm": 148, "elevation_gain_m": 120 },
+      { "date": "2026-02-26", "distance_km": 10.0, "duration_minutes": 46.0, "average_pace_min_per_km": 4.60, "average_heart_rate_bpm": 155, "elevation_gain_m": 85 },
+      { "date": "2026-02-24", "distance_km": 8.0, "duration_minutes": 40.0, "average_pace_min_per_km": 5.00, "average_heart_rate_bpm": 140, "elevation_gain_m": 55 },
+      { "date": "2026-02-22", "distance_km": 12.0, "duration_minutes": 55.2, "average_pace_min_per_km": 4.60, "average_heart_rate_bpm": 152, "elevation_gain_m": 95 },
+      { "date": "2026-02-20", "distance_km": 6.0, "duration_minutes": 27.0, "average_pace_min_per_km": 4.50, "average_heart_rate_bpm": 158, "elevation_gain_m": 40 }
+    ]
+  }
+}

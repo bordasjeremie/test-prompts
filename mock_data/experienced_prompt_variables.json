@@ -1,0 +1,108 @@
+{
+  "athlete_profile": "Age: 41, Sex: Female, Height: 165 cm, Weight: 58 kg, Running experience: 5 years. Experienced runner with multiple half-marathon finishes (PB 1:38). Runs 4-5 times per week, including trail and road. Has completed one marathon previously (3:45 in 2024). No current injuries but history of mild IT band tightness. VO2max estimated at 52.0 mL/kg/min. Resting heart rate: 48 bpm. Average HRV: 65 ms.",
+
+  "goal": "Preparing for the Amsterdam Marathon on October 18, 2026. Target finish time: sub 3:30 (previous marathon: 3:45). Wants to improve endurance and speed work to close the 15-minute gap.",
+
+  "user_message": "My long runs feel comfortable but I'm struggling with speed work. My tempo pace has plateaued around 4:30/km for the past few months and I can't seem to push through. I also wonder if I should increase my weekly mileage. What should I focus on to get to sub 3:30?",
+
+  "following_program": true,
+
+  "healthkit_data": {
+    "user_profile": {
+      "age": 41,
+      "sex": "female",
+      "height_cm": 165,
+      "weight_kg": 58,
+      "running_experience_months": 60
+    },
+    "vo2max": {
+      "value": 52.0,
+      "unit": "mL/kg/min",
+      "date": "2026-02-26"
+    },
+    "resting_heart_rate": {
+      "average_bpm": 48,
+      "date_range": "2026-02-01 to 2026-02-28"
+    },
+    "hrv": {
+      "average_ms": 65,
+      "date_range": "2026-02-01 to 2026-02-28"
+    },
+    "sleep": {
+      "average_duration_hours": 7.8,
+      "average_deep_sleep_hours": 1.8,
+      "average_rem_hours": 2.0,
+      "date_range": "2026-02-01 to 2026-02-28"
+    },
+    "recent_workouts": [
+      {
+        "date": "2026-02-28",
+        "type": "running",
+        "distance_km": 16.0,
+        "duration_minutes": 76.8,
+        "average_pace_min_per_km": 4.80,
+        "average_heart_rate_bpm": 148,
+        "max_heart_rate_bpm": 162,
+        "average_cadence_spm": 178,
+        "elevation_gain_m": 120
+      },
+      {
+        "date": "2026-02-26",
+        "type": "running",
+        "distance_km": 10.0,
+        "duration_minutes": 46.0,
+        "average_pace_min_per_km": 4.60,
+        "average_heart_rate_bpm": 155,
+        "max_heart_rate_bpm": 174,
+        "average_cadence_spm": 182,
+        "elevation_gain_m": 85
+      },
+      {
+        "date": "2026-02-24",
+        "type": "running",
+        "distance_km": 8.0,
+        "duration_minutes": 40.0,
+        "average_pace_min_per_km": 5.00,
+        "average_heart_rate_bpm": 140,
+        "max_heart_rate_bpm": 150,
+        "average_cadence_spm": 176,
+        "elevation_gain_m": 55
+      },
+      {
+        "date": "2026-02-22",
+        "type": "running",
+        "distance_km": 12.0,
+        "duration_minutes": 55.2,
+        "average_pace_min_per_km": 4.60,
+        "average_heart_rate_bpm": 152,
+        "max_heart_rate_bpm": 170,
+        "average_cadence_spm": 180,
+        "elevation_gain_m": 95
+      },
+      {
+        "date": "2026-02-20",
+        "type": "running",
+        "distance_km": 6.0,
+        "duration_minutes": 27.0,
+        "average_pace_min_per_km": 4.50,
+        "average_heart_rate_bpm": 158,
+        "max_heart_rate_bpm": 176,
+        "average_cadence_spm": 184,
+        "elevation_gain_m": 40
+      }
+    ],
+    "weekly_summary": {
+      "week_of": "2026-02-23",
+      "total_distance_km": 34.0,
+      "total_runs": 3,
+      "average_pace_min_per_km": 4.80,
+      "total_duration_minutes": 162.8
+    }
+  },
+
+  "training_data": "Last 4 weeks summary:\n- Week of Feb 23: 3 runs, 34.0 km total, avg pace 4:48/km, avg HR 148 bpm\n- Week of Feb 16: 4 runs, 42.0 km total, avg pace 4:52/km, avg HR 150 bpm\n- Week of Feb 9: 4 runs, 45.0 km total, avg pace 4:55/km, avg HR 149 bpm\n- Week of Feb 2: 3 runs, 36.0 km total, avg pace 4:50/km, avg HR 151 bpm\n\nTrends: Consistent weekly mileage around 35-45 km. Pace is stable in the 4:48-4:55/km range. Heart rate well-controlled on easy runs (140-148 bpm). Long run has been building (up to 16 km). Speed sessions show HR hitting 174-176 bpm, indicating good intensity. Cadence is solid (176-184 spm). Longest recent run: 16.0 km (76.8 min).",
+
+  "additional_context": "Runner has a strong aerobic base with good VO2max (52 mL/kg/min) for her age. Sleep quality is excellent (7.8h avg with good deep/REM ratios). HRV of 65 ms indicates good recovery capacity. Previous marathon was 3:45, so a sub-3:30 target requires roughly 4:58/km pace — achievable given current fitness but will need specific marathon pace work. History of IT band issues means hip/glute strengthening should be maintained. Currently averaging 35-45 km/week; will need to build toward 50-60 km/week for marathon prep.",
+
+  "plan_context": "Goal type: race. Race distance: marathon (42.195 km). Race date: 2026-10-18. Available training weeks: approximately 33 weeks from today. The athlete is experienced with one previous marathon (3:45). A 16-week specific marathon block is recommended, preceded by a base-building phase. Target race pace: 4:58/km. Plan should include progressive long runs up to 32-35 km, marathon-pace tempo sessions, and VO2max intervals. 4 sessions per week recommended, with a 2-3 week taper."
+}

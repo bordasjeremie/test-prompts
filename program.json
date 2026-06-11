@@ -1,0 +1,118 @@
+{
+  "summary": "We’ll build an 8-week, 3-sessions-per-week plan that starts with conservative run-walk progressions and builds to continuous running, introducing easy runs, strides, tempo segments and intervals. The program will include a taper in week 8 so you arrive fresh for your first 10K.",
+  "goal": "Complete your first 10K race on 2026-06-14",
+  "start_date": "2026-04-15",
+  "total_weeks": 8,
+  "weeks": [
+    {
+      "week_number": 1,
+      "start_date": "2026-04-13",
+      "phase": "Base – Run/Walk Introduction",
+      "focus": "Establish consistency and build confidence with run-walks",
+      "sessions": [
+        {
+          "date": "2026-04-15",
+          "day": "Thursday",
+          "session_number": "1",
+          "workout_type": "run_walk",
+          "duration_minutes": 30.0,
+          "steps": [
+            {
+              "start_minutes": 0,
+              "end_minutes": 5,
+              "activity": "MARCHE",
+              "description": "Warm-up walk"
+            },
+            {
+              "start_minutes": 5,
+              "end_minutes": 25,
+              "activity": "EF",
+              "description": "Alternating 1′ run / 2′ walk"
+            },
+            {
+              "start_minutes": 25,
+              "end_minutes": 30,
+              "activity": "MARCHE",
+              "description": "Cool-down walk"
+            }
+          ],
+          "notes": "Keep effort very easy (HR < 140)"
+        },
+        {
+          "date": "2026-04-17",
+          "day": "Saturday",
+          "session_number": "2",
+          "workout_type": "run_walk",
+          "duration_minutes": 30.0,
+          "steps": [
+            {
+              "start_minutes": 0,
+              "end_minutes": 5,
+              "activity": "MARCHE",
+              "description": "Warm-up"
+            },
+            {
+              "start_minutes": 5,
+              "end_minutes": 25,
+              "activity": "EF",
+              "description": "2′ run / 2′ walk repeats"
+            },
+            {
+              "start_minutes": 25,
+              "end_minutes": 30,
+              "activity": "MARCHE",
+              "description": "Cool-down"
+            }
+          ],
+          "notes": "Focus on relaxed form, cadence ~ 165 spm"
+        },
+        {
+          "date": "2026-04-19",
+          "day": "Monday",
+          "session_number": "3",
+          "workout_type": "run_walk",
+          "duration_minutes": 30.0,
+          "steps": [
+            {
+              "start_minutes": 0,
+              "end_minutes": 5,
+              "activity": "MARCHE",
+              "description": "Warm-up"
+            },
+            {
+              "start_minutes": 5,
+              "end_minutes": 25,
+              "activity": "EF",
+              "description": "3′ run / 2′ walk repeats"
+            },
+            {
+              "start_minutes": 25,
+              "end_minutes": 30,
+              "activity": "MARCHE",
+              "description": "Cool-down"
+            }
+          ],
+          "notes": null
+        }
+      ],
+      "rest_days": [
+        "Tuesday",
+        "Wednesday",
+        "Friday",
+        "Sunday"
+      ]
+    }
+  ],
+  "key_principles": [
+    "Start conservatively with run-walk to build durability",
+    "Gradual progression of run segments before adding intensity",
+    "Include walk or easy jog recovery to keep overall intensity low",
+    "Add strides and tempo work in mid-program to prep for 10K pace",
+    "Taper volume in final week to ensure freshness"
+  ],
+  "warnings": [
+    "Maintain easy-run HR < 70% HRmax (~132 bpm) to improve aerobic base",
+    "Monitor calf tightness—add daily calf stretching and foam rolling",
+    "Aim for ≥7h sleep nightly and check HRV for recovery signals"
+  ]
+}

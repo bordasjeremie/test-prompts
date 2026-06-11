@@ -1,0 +1,92 @@
+{
+  "user_profile": {
+    "age": 41,
+    "sex": "female",
+    "height_cm": 165,
+    "weight_kg": 58,
+    "running_experience_months": 60
+  },
+  "vo2max": {
+    "value": 52.0,
+    "unit": "mL/kg/min",
+    "date": "2026-02-26"
+  },
+  "resting_heart_rate": {
+    "average_bpm": 48,
+    "date_range": "2026-02-01 to 2026-02-28"
+  },
+  "hrv": {
+    "average_ms": 65,
+    "date_range": "2026-02-01 to 2026-02-28"
+  },
+  "sleep": {
+    "average_duration_hours": 7.8,
+    "average_deep_sleep_hours": 1.8,
+    "average_rem_hours": 2.0,
+    "date_range": "2026-02-01 to 2026-02-28"
+  },
+  "recent_workouts": [
+    {
+      "date": "2026-02-28",
+      "type": "running",
+      "distance_km": 16.0,
+      "duration_minutes": 76.8,
+      "average_pace_min_per_km": 4.80,
+      "average_heart_rate_bpm": 148,
+      "max_heart_rate_bpm": 162,
+      "average_cadence_spm": 178,
+      "elevation_gain_m": 120
+    },
+    {
+      "date": "2026-02-26",
+      "type": "running",
+      "distance_km": 10.0,
+      "duration_minutes": 46.0,
+      "average_pace_min_per_km": 4.60,
+      "average_heart_rate_bpm": 155,
+      "max_heart_rate_bpm": 174,
+      "average_cadence_spm": 182,
+      "elevation_gain_m": 85
+    },
+    {
+      "date": "2026-02-24",
+      "type": "running",
+      "distance_km": 8.0,
+      "duration_minutes": 40.0,
+      "average_pace_min_per_km": 5.00,
+      "average_heart_rate_bpm": 140,
+      "max_heart_rate_bpm": 150,
+      "average_cadence_spm": 176,
+      "elevation_gain_m": 55
+    },
+    {
+      "date": "2026-02-22",
+      "type": "running",
+      "distance_km": 12.0,
+      "duration_minutes": 55.2,
+      "average_pace_min_per_km": 4.60,
+      "average_heart_rate_bpm": 152,
+      "max_heart_rate_bpm": 170,
+      "average_cadence_spm": 180,
+      "elevation_gain_m": 95
+    },
+    {
+      "date": "2026-02-20",
+      "type": "running",
+      "distance_km": 6.0,
+      "duration_minutes": 27.0,
+      "average_pace_min_per_km": 4.50,
+      "average_heart_rate_bpm": 158,
+      "max_heart_rate_bpm": 176,
+      "average_cadence_spm": 184,
+      "elevation_gain_m": 40
+    }
+  ],
+  "weekly_summary": {
+    "week_of": "2026-02-23",
+    "total_distance_km": 34.0,
+    "total_runs": 3,
+    "average_pace_min_per_km": 4.80,
+    "total_duration_minutes": 162.8
+  }
+}

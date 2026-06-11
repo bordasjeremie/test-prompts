@@ -1,0 +1,29 @@
+{
+  "label": "Marcus — Beginner, first 10K",
+  "language": "en",
+  "suggested_audience": "beginner",
+  "physical": { "age": 32, "sex": "Male", "weight_kg": 82, "height_cm": 178 },
+  "level": "Beginner",
+  "terrain": "Road",
+  "experience": "4 months",
+  "goal": "Complete a first 10K race",
+  "sessions_per_week": 3,
+  "preferred_days": ["Monday", "Wednesday", "Saturday"],
+  "following_program": true,
+  "program": "Plan: \"My First 10K\" (started 2026-05-18)\nCurrent week: 3 / 8\nKey principles: Run/walk progression, consistency over speed, gradual volume\n\nOverall progress: 7/9 sessions completed (78%)\nMissed sessions: 1\n\nWEEK 2 (past):\n- 2026-05-25: Run/walk 28min [COMPLETED: 3.4 km, pace 6:40/km, HR 159 bpm]\n- 2026-05-27: Run/walk 30min [MISSED]\n- 2026-05-30: Easy run 32min [COMPLETED: 4.0 km, pace 6:30/km]\n\nWEEK 3 (current):\n- 2026-06-01: Run/walk 30min [COMPLETED: 4.1 km, pace 6:25/km]\n- 2026-06-03: Short intervals 28min [TODAY - UPCOMING]\n- 2026-06-06: Long run 38min [UPCOMING]\n\nWEEK 4 (next):\n- 2026-06-08: Easy run 32min [UPCOMING]\n\nConsistency streak: 1 consecutive week(s) fully completed",
+  "athlete_profile": "Age: 32, Sex: Male, Height: 178 cm, Weight: 82 kg. Running experience: 4 months. Started running in late 2025 with no prior endurance background. Runs 2-3 times per week on flat urban routes. No known injuries but occasionally feels calf tightness after runs. VO2max ~38.5 mL/kg/min, resting HR 68 bpm, HRV 42 ms.",
+  "default_user_message": "I've been running for about 4 months now but I feel like I'm not improving much. My legs are often sore the day after running and my pace doesn't seem to get any faster. Should I run more often or change something in my training?",
+  "healthkit": {
+    "vo2max": { "value": 38.5, "unit": "mL/kg/min", "date": "2026-02-25" },
+    "resting_heart_rate": { "average_bpm": 68 },
+    "hrv": { "average_ms": 42 },
+    "sleep": { "average_duration_hours": 6.8, "average_deep_sleep_hours": 1.2 },
+    "recent_workouts": [
+      { "date": "2026-02-27", "distance_km": 5.1, "duration_minutes": 33.2, "average_pace_min_per_km": 6.51, "average_heart_rate_bpm": 162, "elevation_gain_m": 45 },
+      { "date": "2026-02-25", "distance_km": 3.2, "duration_minutes": 20.1, "average_pace_min_per_km": 6.28, "average_heart_rate_bpm": 155, "elevation_gain_m": 20 },
+      { "date": "2026-02-22", "distance_km": 6.0, "duration_minutes": 41.0, "average_pace_min_per_km": 6.83, "average_heart_rate_bpm": 168, "elevation_gain_m": 60 },
+      { "date": "2026-02-20", "distance_km": 4.0, "duration_minutes": 25.6, "average_pace_min_per_km": 6.40, "average_heart_rate_bpm": 158, "elevation_gain_m": 30 },
+      { "date": "2026-02-17", "distance_km": 3.0, "duration_minutes": 19.5, "average_pace_min_per_km": 6.50, "average_heart_rate_bpm": 160, "elevation_gain_m": 15 }
+    ]
+  }
+}

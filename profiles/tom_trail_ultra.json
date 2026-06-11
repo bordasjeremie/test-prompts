@@ -1,0 +1,28 @@
+{
+  "label": "Tom — Trail runner, 50K ultra prep",
+  "language": "en",
+  "suggested_audience": "trailer",
+  "physical": { "age": 38, "sex": "Male", "weight_kg": 72, "height_cm": 180 },
+  "level": "Intermediate",
+  "terrain": "Trail",
+  "experience": "3 years",
+  "goal": "Finish a 50K trail ultra with 2000m of elevation gain",
+  "sessions_per_week": 4,
+  "preferred_days": ["Tuesday", "Thursday", "Saturday", "Sunday"],
+  "following_program": true,
+  "program": "Plan: \"Road to 50K Trail\" (started 2026-04-13)\nCurrent week: 9 / 16\nKey principles: Time on feet, weekly vert progression, downhill resilience, back-to-back long days\n\nOverall progress: 30/36 sessions completed (83%)\nMissed sessions: 2\n\nWEEK 8 (past):\n- 2026-06-02: Hill repeats 60min [COMPLETED: 9.0 km, +520 m D+, HR 158 bpm]\n- 2026-06-04: Easy trail 50min [COMPLETED: 8.5 km, +180 m D+]\n- 2026-06-06: Long trail 150min [COMPLETED: 24.0 km, +900 m D+, pace 6:15/km]\n- 2026-06-07: Recovery run 40min [MISSED]\n\nWEEK 9 (current):\n- 2026-06-09: Tempo climb 55min [COMPLETED: 9.5 km, +400 m D+]\n- 2026-06-11: Technical descent drills 50min [TODAY - UPCOMING]\n- 2026-06-13: Long trail 180min [UPCOMING]\n- 2026-06-14: Easy back-to-back 70min [UPCOMING]\n\nWEEK 10 (next):\n- 2026-06-16: Hill repeats 65min [UPCOMING]\n\nConsistency streak: 2 consecutive week(s) fully completed",
+  "athlete_profile": "Age: 38, Sex: Male, Height: 180 cm, Weight: 72 kg. Running experience: 3 years, mostly trail. Comfortable with hilly terrain, weekly vert ~600m. Finished a 25K trail last season. VO2max ~50 mL/kg/min, resting HR 52 bpm, HRV 58 ms. History of mild Achilles tightness on long descents.",
+  "default_user_message": "I can run 25K on trails fine but I struggle on the long climbs and my quads are destroyed after big descents. How should I build up to a 50K with 2000m of climbing?",
+  "healthkit": {
+    "vo2max": { "value": 50.0, "unit": "mL/kg/min", "date": "2026-02-24" },
+    "resting_heart_rate": { "average_bpm": 52 },
+    "hrv": { "average_ms": 58 },
+    "sleep": { "average_duration_hours": 7.2, "average_deep_sleep_hours": 1.6 },
+    "recent_workouts": [
+      { "date": "2026-02-28", "distance_km": 22.0, "duration_minutes": 138.0, "average_pace_min_per_km": 6.27, "average_heart_rate_bpm": 150, "elevation_gain_m": 780 },
+      { "date": "2026-02-25", "distance_km": 10.0, "duration_minutes": 55.0, "average_pace_min_per_km": 5.50, "average_heart_rate_bpm": 145, "elevation_gain_m": 220 },
+      { "date": "2026-02-23", "distance_km": 8.0, "duration_minutes": 42.0, "average_pace_min_per_km": 5.25, "average_heart_rate_bpm": 158, "elevation_gain_m": 150 },
+      { "date": "2026-02-21", "distance_km": 14.0, "duration_minutes": 84.0, "average_pace_min_per_km": 6.00, "average_heart_rate_bpm": 148, "elevation_gain_m": 480 }
+    ]
+  }
+}
