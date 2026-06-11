@@ -42,6 +42,39 @@ def default_api_key() -> str:
     return os.getenv("OPENAI_API_KEY", "")
 
 
+def _expected_password() -> str:
+    """The gate password, from Streamlit secrets (cloud) or the env (local). Empty = no gate."""
+    try:
+        if "APP_PASSWORD" in st.secrets:
+            return st.secrets["APP_PASSWORD"]
+    except Exception:  # noqa: BLE001 — no secrets.toml present (e.g. local run)
+        pass
+    return os.getenv("APP_PASSWORD", "")
+
+
+def check_password() -> bool:
+    """Render a password gate. Returns True once the correct password is entered.
+
+    If no APP_PASSWORD is configured (secrets or env), the gate is disabled and
+    the app is open — handy for local development.
+    """
+    expected = _expected_password()
+    if not expected:
+        return True
+    if st.session_state.get("password_ok"):
+        return True
+
+    st.title("🔒 Running Coach — Prompt Lab")
+    entered = st.text_input("Password", type="password", key="password_input")
+    if entered:
+        if entered == expected:
+            st.session_state.password_ok = True
+            st.rerun()
+        else:
+            st.error("Incorrect password.")
+    return False
+
+
 # --- UI labels ---------------------------------------------------------------
 
 FEATURE_LABELS = {
@@ -204,6 +237,9 @@ def run_scenario(client, model, feature, system_prompt, user_message):
 
 def main():
     st.set_page_config(page_title="Running Coach — Prompt Lab", page_icon="🏃", layout="wide")
+
+    if not check_password():
+        return
 
     if "token_usage" not in st.session_state:
         st.session_state.token_usage = {"prompt": 0, "completion": 0, "total": 0}
