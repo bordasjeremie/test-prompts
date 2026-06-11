@@ -54,3 +54,40 @@ class TrainingPlan(BaseModel):
     weeks: list[Week]
     key_principles: list[str]
     warnings: list[str]
+
+
+class Trend(str, Enum):
+    positive = "positive"
+    stable = "stable"
+    down = "down"
+
+
+class ProfileHeader(BaseModel):
+    runner_type: str
+    regularity: str
+    endurance: str
+    recovery: str
+
+
+class EvolutionItem(BaseModel):
+    detail: str
+    trend: Trend
+
+
+class ProfileEvolution(BaseModel):
+    has_previous: bool
+    intro: str
+    regularity: EvolutionItem
+    endurance: EvolutionItem
+    average_pace: EvolutionItem
+
+
+class ProfileAnalysis(BaseModel):
+    """Structured running-profile analysis (header badges, synthesis, strengths,
+    improvement axes, and evolution since the previous analysis)."""
+    last_updated: str
+    header: ProfileHeader
+    synthesis: str
+    strengths: list[str]
+    improvements: list[str]
+    evolution: ProfileEvolution

@@ -78,6 +78,20 @@ def build_scheduling_rule(preferred_days: list[str], tomorrow: date) -> str:
     )
 
 
+def previous_analysis_block(profile: dict) -> str:
+    """Format the prior-analysis snapshot for the evolution section, or note its absence."""
+    prev = profile.get("previous_analysis")
+    if not prev:
+        return "No previous analysis available — this is the first analysis."
+    rows = [
+        ("Date of previous analysis", prev.get("date")),
+        ("Runs per week", prev.get("runs_per_week")),
+        ("Longest run (km)", prev.get("longest_run_km")),
+        ("Average pace (min/km)", prev.get("average_pace_min_per_km")),
+    ]
+    return "\n".join(f"{label}: {value}" for label, value in rows if value is not None)
+
+
 def following_program_text(profile: dict, *, boolean: bool = False) -> str:
     """followingProgram value. coach_tips wants 'true'/'false'; chat wants a sentence."""
     active = bool(profile.get("following_program"))
@@ -125,6 +139,17 @@ def derive_variables(feature: str, profile: dict, *, language: str,
             "planContext": plan_context,
             "trainingData": training_data,
             "sessionsPerWeek": n,
+        }
+
+    if feature == "profile_analysis":
+        return {
+            **common,
+            "today": today.isoformat(),
+            "followingProgram": following_program_text(profile),
+            "athleteProfile": profile.get("athlete_profile", "N/A"),
+            "healthkitData": json.dumps(healthkit, indent=2, ensure_ascii=False),
+            "trainingData": training_data,
+            "previousAnalysis": previous_analysis_block(profile),
         }
 
     if feature == "coach_tips":

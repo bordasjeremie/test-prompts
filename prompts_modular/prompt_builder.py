@@ -63,6 +63,14 @@ FEATURES = {
         "max_tokens": 4000,
         "tools": [],
     },
+    "profile_analysis": {
+        "layers": ("context", "personality", "audience", "feature"),
+        "context": "base",
+        "model": "gpt-4o",
+        "response_format": {"type": "json_object"},
+        "max_tokens": 4000,
+        "tools": [],
+    },
 }
 
 # Personalities available (id -> tier). 'motivating' is the Free default.

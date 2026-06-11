@@ -82,6 +82,7 @@ FEATURE_LABELS = {
     "run_analysis": "📊 Run analysis",
     "plan_generation": "🗓️ Training plan generation",
     "coach_tips": "💡 Coach tips",
+    "profile_analysis": "🧭 Profile analysis",
 }
 
 PERSONALITY_LABELS = {
@@ -172,6 +173,64 @@ def render_tips(tips: dict):
         st.json(tips)
 
 
+_TREND_BADGE = {
+    "positive": "🟢 improving",
+    "improving": "🟢 improving",
+    "stable": "⚪ stable",
+    "down": "🔴 declining",
+    "slight_decline": "🟠 slight decline",
+}
+
+
+def render_profile_analysis(analysis: dict):
+    header = analysis.get("header", {})
+    cols = st.columns(4)
+    for col, (key, title) in zip(
+        cols,
+        [("runner_type", "Runner type"), ("regularity", "Regularity"),
+         ("endurance", "Endurance"), ("recovery", "Recovery")],
+    ):
+        with col:
+            st.caption(title)
+            st.markdown(f"**{header.get(key, '—')}**")
+    if analysis.get("last_updated"):
+        st.caption(f"Last updated: {analysis['last_updated']}")
+
+    st.divider()
+    st.subheader("Your profile")
+    if analysis.get("synthesis"):
+        st.markdown(analysis["synthesis"])
+
+    s_col, w_col = st.columns(2)
+    with s_col:
+        st.markdown("**Strengths**")
+        for item in analysis.get("strengths", []):
+            st.success(item)
+    with w_col:
+        st.markdown("**Areas to improve**")
+        for item in analysis.get("improvements", []):
+            st.warning(item)
+
+    evo = analysis.get("evolution", {})
+    if evo:
+        st.divider()
+        st.subheader("Evolution since last analysis")
+        if evo.get("intro"):
+            st.markdown(evo["intro"])
+        for key, title in [("regularity", "Regularity"), ("endurance", "Endurance"),
+                           ("average_pace", "Average pace")]:
+            sub = evo.get(key)
+            if not sub:
+                continue
+            badge = _TREND_BADGE.get(sub.get("trend", ""), sub.get("trend", ""))
+            st.markdown(f"**{title}** — {badge}")
+            if sub.get("detail"):
+                st.markdown(sub["detail"])
+
+    with st.expander("Raw JSON"):
+        st.json(analysis)
+
+
 # --- Scenario execution ------------------------------------------------------
 
 def run_scenario(client, model, feature, system_prompt, user_message):
@@ -183,7 +242,7 @@ def run_scenario(client, model, feature, system_prompt, user_message):
 
     if feature in USER_ROLE_FEATURES:
         messages = [{"role": "user", "content": system_prompt}]
-    elif feature == "coach_tips":
+    elif feature in ("coach_tips", "profile_analysis"):
         messages = [
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": "Generate the JSON object now."},
@@ -227,6 +286,8 @@ def run_scenario(client, model, feature, system_prompt, user_message):
             st.caption("Saved to program.json")
         elif feature == "coach_tips":
             render_tips(data)
+        elif feature == "profile_analysis":
+            render_profile_analysis(data)
         else:
             st.json(data)
     else:
